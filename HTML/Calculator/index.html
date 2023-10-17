@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Calculator</title>
+</head>
+
+<body>
+  <main>
+    <input type="text" name="type-box" id="type-box" placeholder="Enter equation here...">
+
+    <table>
+      <tr>
+        <td><input type="button" value="9" onclick="dis('9')" class="keypad"></td>
+        <td><input type="button" value="8" onclick="dis('8')" class="keypad"></td>
+        <td><input type="button" value="7" onclick="dis('7')" class="keypad"></td>
+        <td><input type="button" value="+" onclick="dis('+')" class="keypad"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="4" onclick="dis('4')" class="keypad"></td>
+        <td><input type="button" value="5" onclick="dis('5')" class="keypad"></td>
+        <td><input type="button" value="6" onclick="dis('6')" class="keypad"></td>
+        <td><input type="button" value="-" onclick="dis('-')" class="keypad"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="1" onclick="dis('1')" class="keypad"></td>
+        <td><input type="button" value="2" onclick="dis('2')" class="keypad"></td>
+        <td><input type="button" value="3" onclick="dis('3')" class="keypad"></td>
+        <td><input type="button" value="/" onclick="dis('/')" class="keypad"></td>
+      </tr>
+      <tr>
+        <td><input type="button" value="C" onclick="clr()" class="keypad"></td>
+        <td><input type="button" value="0" onclick="dis('0')" class="keypad"></td>
+        <td><input type="button" value="=" onclick="solve()" class="keypad"></td>
+        <td><input type="button" value="*" onclick="dis('*')" class="keypad"></td>
+      </tr>
+    </table>
+  </main>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
